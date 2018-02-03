@@ -1,0 +1,20 @@
+{
+  "name": "foe-city-builder",
+  "version": "1.0.0",
+  "description": "HTML5 city builder for forge of empires",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "browserify public_html/app/app.js -o public_html/bundle.js",
+    "watch": "watchify public_html/app/app.js -o public_html/bundle.js --debug --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi-viewport": "^1.1.5",
+    "pixi.js": "^4.7.0"
+  }
+}
